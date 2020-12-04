@@ -1,7 +1,7 @@
 # Detection and Analysis of paintings and people in an art gallery
-Project for the University course "Vision and Cognitive Systems" (Computer Engeneering UniMoRe), implementing a pipeline for detection and analysis of paintings and people in videos taken in an art gallery.
+Project for the University course "Vision and Cognitive Systems" (Computer Engineering UniMoRe), implementing a pipeline for detection and analysis of paintings and people in videos taken in an art gallery.
 
-Paper with description of the pipeline is available in this folder (paper.pdf)
+Paper with description of the pipeline is available in this folder (report.pdf)
 
 # Installation
 The code is written in Python3 using PyTorch, tested on Ubuntu 18.04 system.
@@ -47,13 +47,6 @@ You can use the following script to download a small video subset for testing (a
 ```
 $ chmod +x download_smallvideos.sh
 $ ./download_smallvideos.sh
-```
-
-A larger subset is also available using this script (approx 4.2 GB):
-
-```
-$ chmod +x download_largevideos.sh
-$ ./download_largevideos.sh
 ```
 
 Now you should be ready!
